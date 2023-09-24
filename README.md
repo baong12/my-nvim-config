@@ -1,11 +1,11 @@
-# A Basic Stable IDE config for Neovim (https://github.com/LunarVim/nvim-basic-ide/tree/master/lua/keymaps.lua)
-My customized config for nvim-basic-ide
+# A Basic Stable IDE config for Neovim
+My customized config for nvim-basic-ide. ([source](https://github.com/LunarVim/nvim-basic-ide))
 
 ## Install the config
 
 Make sure to remove or backup your current `nvim` directory
 
-```Powershell
+```powershell
 Remove-Item $env:LOCALAPPDATA\nvim -Recurse -Force
 git clone https://github.com/LunarVim/nvim-basic-ide.git $env:LOCALAPPDATA\nvim
 ```
@@ -28,13 +28,13 @@ Next we need to install python support (node is optional)
 
 - Neovim python support
 
-  ```sh
+  ```powershell
   pip install pynvim
   ```
 
 - Neovim node support
 
-  ```sh
+  ```powershell
   npm i -g neovim
   ```
 
@@ -42,7 +42,7 @@ We will also need `ripgrep` for Telescope to work:
 
 - Ripgrep
 
-  ```sh
+  ```powershell
   sudo apt install ripgrep
   ```
 
