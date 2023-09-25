@@ -7,7 +7,7 @@ Make sure to remove or backup your current `nvim` directory
 
 ```powershell
 Remove-Item $env:LOCALAPPDATA\nvim -Recurse -Force
-git clone https://github.com/LunarVim/nvim-basic-ide.git $env:LOCALAPPDATA\nvim
+git clone https://github.com/baong12/my-nvim-config.git $env:LOCALAPPDATA\nvim
 ```
 
 Run `nvim` and wait for the plugins to be installed
