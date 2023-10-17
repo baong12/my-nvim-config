@@ -49,7 +49,12 @@ function M.config()
       ["u"] = "toggle()",
       ["t"] = "terminate()",
     },
-    ["l"] = "Lsp"
+    ["l"] = "Lsp",
+    ["s"] = {
+      "Encoding",
+      ["="] = "(select)",
+      ["j"] = "S-JIS"
+    }
   }, n_opts)
 
   wk.register({
