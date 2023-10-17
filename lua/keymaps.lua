@@ -97,3 +97,5 @@ keymap("n", "<leader>lf", "<cmd>lua vim.lsp.buf.format{ async = true }<cr>", opt
 -- Misc
 keymap("n", "<leader>s=", ":e ++enc=")
 keymap("n", "<leader>sj", ":e ++enc=sjis<cr>", opts)
+keymap("n", "<leader>i2", ":set tabstop=2 shiftwidth=2<cr>", opts)
+keymap("n", "<leader>i4", ":set tabstop=4 shiftwidth=4<cr>", opts)

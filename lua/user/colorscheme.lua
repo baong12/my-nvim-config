@@ -28,6 +28,7 @@ function M.config()
       endif
     ]])
     vim.cmd("let g:sonokai_style = 'espresso'")
+    vim.cmd("let g:sonokai_disable_italic_comment = 1")
   end
 
   local status_ok, _ = pcall(vim.cmd.colorscheme, M.name)

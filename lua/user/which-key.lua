@@ -28,8 +28,8 @@ function M.config()
     ["/"] = "Comment toggle current line",
     ["f"] = {
       "Find",
-      ["f"] = "Find Files",
-      ["t"] = "Live Grep",
+      ["f"] = "Find files",
+      ["t"] = "Live grep",
       ["p"] = "Projects",
       ["b"] = "Buffers",
     },
@@ -53,8 +53,13 @@ function M.config()
     ["s"] = {
       "Encoding",
       ["="] = "(select)",
-      ["j"] = "S-JIS"
-    }
+      ["j"] = "S-JIS",
+    },
+    ["i"] = {
+      "Indent width",
+      ["2"]= "2 spaces",
+      ["4"]= "4 spaces",
+    },
   }, n_opts)
 
   wk.register({
